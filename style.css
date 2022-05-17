@@ -1,0 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz@12..72&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Truculenta:opsz,wght@12..72,500;12..72,600;12..72,800;12..72,900&display=swap');
+* {
+    font-family: 'Truculenta', 'Times-New-Roman', serif;
+}
+html {
+    scroll-behavior: smooth; 
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+body {
+    background-color: #E8CABE ;
+    
+}
+
+nav {
+    background-color: #c96261;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: #471477fd;
+    padding: 10px 15px;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 2px 2px 3px;
+}
+h2 {
+    font-size: 30px;
+    text-shadow: 5px 5px 5px rgb(94, 92, 92);
+}
+img {
+    width: 300px;
+    height: 200px;
+}
+footer {
+    position: sticky;
+    bottom: 0;
+    background-color: #c96261;  
+    text-align: center; 
+}
+.link:visited {
+    color: purple;
+}
+.link:hover {
+    font-weight: 900;
+}
+.link:active {
+    color: yellow;
+}
+.link:visited:hover {
+    color: black;
+}
+i {
+    position: relative;
+    font-size: xx-large;
+    color:#471477fd ;
+    margin-left: 10rem;
+    margin-top: 1rem; 
+    text-shadow: 1px 1px 1px;
+}
